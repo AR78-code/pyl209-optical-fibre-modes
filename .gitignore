@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+tmp/
+.mplconfig/
+archive/
+*.zip
+.DS_Store
+
+# Keep the figures and data used by the final submission.
+results/*
+!results/modal_distributions.png
+!results/length_patterns.png
+!results/lens_patterns.png
+!results/modes.csv
+!results/coupling_sweep.csv
+!results/validation.json
+!results/summary.json

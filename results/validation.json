@@ -1,0 +1,92 @@
+{
+  "all_passed": true,
+  "checks": {
+    "maximum_normalized_derivative_boundary_residual": {
+      "value": 9.390292606777127e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    "invalid_guided_effective_indices": {
+      "value": 0.0,
+      "limit": 0.5,
+      "passed": true
+    },
+    "orthonormality_max_error": {
+      "value": 2.0433613755998875e-13,
+      "limit": 2e-08,
+      "passed": true
+    },
+    "field_at_outer_cladding_over_core_peak": {
+      "value": 9.399001927450428e-08,
+      "limit": 1e-06,
+      "passed": true
+    },
+    "overlap_quadrature_refinement_max_amplitude_change": {
+      "value": 5.886977634577035e-14,
+      "limit": 1e-07,
+      "passed": true
+    },
+    "diffraction_vs_untruncated_gaussian_relative_peak_error": {
+      "value": 1.125351606134362e-07,
+      "limit": 2e-07,
+      "passed": true
+    },
+    "browser_radial_interpolation_relative_peak_error": {
+      "value": 5.988782366077351e-05,
+      "limit": 0.0001,
+      "passed": true
+    },
+    "guided_power_conservation_max_error": {
+      "value": 2.120525977034049e-14,
+      "limit": 2e-08,
+      "passed": true
+    },
+    "guided_power_above_incident": {
+      "value": 0.0,
+      "limit": 1e-07,
+      "passed": true
+    },
+    "centred_launch_forbidden_angular_overlap": {
+      "value": 1.1015494072452725e-16,
+      "limit": 1e-12,
+      "passed": true
+    },
+    "single_mode_intensity_length_invariance": {
+      "value": 2.7755575615628914e-17,
+      "limit": 1e-12,
+      "passed": true
+    },
+    "two_mode_one_beat_recurrence": {
+      "value": 0.0,
+      "limit": 1e-12,
+      "passed": true
+    },
+    "independent_finite_volume_U_relative_error": {
+      "value": 7.616662811127384e-06,
+      "limit": 3e-05,
+      "passed": true
+    },
+    "single_mode_cutoff_test_errors": {
+      "value": 0.0,
+      "limit": 0.5,
+      "passed": true
+    }
+  },
+  "LP01_LP02_beat_length_mm": 0.3214278652519959,
+  "summary": {
+    "parameters": {
+      "wavelength": 0.65,
+      "a": 6.25,
+      "clad_radius": 62.5,
+      "n1": 1.5,
+      "n2": 1.47
+    },
+    "NA": 0.2984962311319863,
+    "V": 18.03372243939402,
+    "LP_families": 45,
+    "spatial_modes_one_polarization": 84,
+    "modes_both_polarizations": 168,
+    "centred_launch_families": 6,
+    "gaussian_radius_at_lens_um": 2500.0
+  }
+}

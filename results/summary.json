@@ -1,0 +1,16 @@
+{
+  "parameters": {
+    "wavelength": 0.65,
+    "a": 6.25,
+    "clad_radius": 62.5,
+    "n1": 1.5,
+    "n2": 1.47
+  },
+  "NA": 0.2984962311319863,
+  "V": 18.03372243939402,
+  "LP_families": 45,
+  "spatial_modes_one_polarization": 84,
+  "modes_both_polarizations": 168,
+  "centred_launch_families": 6,
+  "gaussian_radius_at_lens_um": 2500.0
+}
